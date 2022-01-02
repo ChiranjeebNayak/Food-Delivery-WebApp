@@ -9,6 +9,8 @@ import Signin from './pages/signin'
 import Signup from './pages/signup'
 import Checkout from './pages/checkout'
 import Home from './pages/home'
+import Restaurant from './pages/restaurants'
+import Menu from './pages/menu'
 function App() {
   return (
     <Router>
@@ -18,6 +20,8 @@ function App() {
         <Route exact path="/signin" element={<Signin />} />
         <Route exact path="/home" element={<Home/>} />
         <Route exact path="/checkout" element={<Checkout/>}/>
+        <Route  path ="/restaurants" element={<Restaurant/>}/>
+        <Route  path ="/menu" element={<Menu/>}/>
       </Routes>
     </Router>
   );

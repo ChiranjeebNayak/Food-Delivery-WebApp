@@ -1,11 +1,9 @@
 import React from 'react'
-import Layout from '../components/layout/layout'
+import HomePage from '../components/home/index'
 function Home() {
     return (
         <>
-            <Layout>
-                i am in home
-            </Layout>
+            <HomePage/>
         </>
     )
 }

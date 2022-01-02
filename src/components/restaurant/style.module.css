@@ -1,0 +1,21 @@
+.card{
+    cursor: pointer;
+    
+}
+.card:hover{
+    box-shadow: 3px 5px #c7c5c4;
+    border: 2px solid transparent;
+}
+.rating{
+    background-color: rgb(46, 167, 74);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 3px;
+}
+.ratingIcon{
+   font-size: 12px;
+   margin-bottom: 1.5px;
+}
