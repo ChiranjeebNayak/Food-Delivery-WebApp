@@ -12,11 +12,19 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useNavigate } from 'react-router-dom';
+
 
 const theme = createTheme();
 
+
 export default function SignIn() {
+
+  let navigate = useNavigate();
+
+
   const handleSubmit = (event) => {
+
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     // eslint-disable-next-line no-console
@@ -24,7 +32,9 @@ export default function SignIn() {
       email: data.get('email'),
       password: data.get('password'),
     });
+    navigate('/home');
   };
+  
 
   return (
     <ThemeProvider theme={theme}>

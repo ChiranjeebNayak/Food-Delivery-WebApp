@@ -21,6 +21,9 @@ function Index() {
                     <input className='form-control p-2 w-50 m-3' placeholder='Enter Your Destination' onChange={cityNameHandler}></input>
                     <button className='btn btn-warning fw-bold w-25 m-3' onClick={formHandler}>Search</button>
                 </div>
+                <div className='container border border-danger'>
+                    flex marketing
+                </div>
             </Layout>
         </>
     )

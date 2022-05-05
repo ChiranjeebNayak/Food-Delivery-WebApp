@@ -11,6 +11,7 @@ import Checkout from './pages/checkout'
 import Home from './pages/home'
 import Restaurant from './pages/restaurants'
 import Menu from './pages/menu'
+import Testing from './pages/testing'
 function App() {
   return (
     <Router>
@@ -18,10 +19,10 @@ function App() {
         <Route exact path="/" element={<Signin />} />
         <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/signin" element={<Signin />} />
-        <Route exact path="/home" element={<Home/>} />
+        <Route exact path="/home" element={<Menu/>} />
         <Route exact path="/checkout" element={<Checkout/>}/>
         <Route  path ="/restaurants" element={<Restaurant/>}/>
-        <Route  path ="/menu" element={<Menu/>}/>
+        <Route  path ="/testing" element={<Testing/>}/>
       </Routes>
     </Router>
   );

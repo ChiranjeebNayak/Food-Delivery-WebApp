@@ -21,9 +21,43 @@
     cursor: pointer;
 }
 .category:hover{
-    color: orange;
+    font-weight: bold;
+    color: rgb(255, 166, 0);
     border-bottom: 1px solid orange;
     border-top: 1px solid orange;
     border-right: 3px solid rgb(255, 123, 0);
-    background-image:  linear-gradient(to right, white , orange);
+    background-image:  linear-gradient(to right, white , rgb(255, 215, 140));
+}
+.foodPic{
+    width: 100%;
+    border-radius: 20px;
+}
+.foodName{
+    font-weight: bold;
+}
+.foodPrice{
+    font-size: 18px;
+}
+.foodAdd{
+    text-align: center;
+    padding: 2px;
+    width: 50%;
+    font-weight: bold;
+    border: 1px solid orange;
+    background-color: rgb(248, 248, 233);
+    color: orange;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.foodAdd:hover{
+    background-color: white;
+}
+.addIcon{
+    font-size: 12px;
+}
+
+.menuList{
+    border: 1px solid red;
+    height: 100vh;
+    overflow-y: auto;
 }
